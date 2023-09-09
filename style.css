@@ -3,7 +3,26 @@
     padding: 0;
     box-sizing: border-box
 }
+h1 { 
+    color:#ad306fde;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+h2,
+p { color:#ad306fde;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+h3 {
+    color:#ad306fde;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
 main{ 
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: Linear-gradient(to right top,#ffb6c1, #ff69b4);
     display: flex;
@@ -13,50 +32,86 @@ main{
 
 .glass {
     background: white;
-    min-height: 80vh;
     width: 60%;
+    height: 20%;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
-    border-radius: 10px;
-    padding: 20px;
-    width: 80%;
-    max-width: 600px; 
-    margin: 0 auto;
-    border-radius:2rem;
-    z-index: 2;
+    border-radius: 2rem;
+    z-index:2;
     backdrop-filter: blur(2rem);
+    display:flex
+    
+
    
 }
 
 .circle1,.circle2{
     background: white;
-    background: rgba(255, 255, 255, 0.3);
+   background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
-    border-radius: 10px;
-    padding: 20px;
-    width: 20%;
-    max-width: 40%;
-    margin:0 auto; 
-    height: 10rem;
-    width: 10rem;
+    border-radius: 10 bacpx;
+    height: 15rem;
+    width: 15rem;
     position: absolute;
     border-radius: 50%;
    
 }
 .circle1{
-    top: 5%;
-    right: 15%;
+    top: 1%;
+    right:15%;
 }
 .circle2{
-bottom: 5%;
-left: 10%;
+bottom: 1%;
+left:10%;
 }
-
-    
-
-
-
-
+.dashboard{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10 bacpx;
+    padding: 20px;
+    width: 10%;
+}
+.link{ 
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+}
+.link h2{
+     padding: 0rem 2rem;
+}
+.games {
+    flex: 2;
+}
+.pro {
+    background: Linear-gradient(to right top,#ffb6c1, #ff69b4);
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    padding: 1rem;
+}
+    .pro image{
+        position: absolute;
+        top: -10%;
+    }
+    .pro h2{
+        width: 50%;
+        color:white;
+        font-weight: 600;
+    }
+/*Games*/
+.status{
+    margin-bottom: 3rem;
+}
+.staus input{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+}
 
 
 
